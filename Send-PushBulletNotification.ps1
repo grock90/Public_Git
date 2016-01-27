@@ -7,10 +7,10 @@
     [string] $Title,
     
     [Parameter(Mandatory=$false)]
-    [string] $AccessToken = "YOUR_PUSHBULLET_TOKEN",
+    [string] $AccessToken = "YOUR_PUSHBULLET_ACCESS_TOKEN",
     
     [Parameter(Mandatory=$false)]
-    [string] $EmailAddress = "YOUR EMAIL ADDRESS USED BY PUSHBULLERT"   
+    [string] $EmailAddress = "YOUR EMAIL ADDRESS USED BY PUSHBULLET"   
 )
 
 $Header = @{}
